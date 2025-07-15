@@ -4,6 +4,6 @@ joblib==1.4.2
 streamlit==1.46.1
 pandas
 numpy
-seaborn
 matplotlib
+seaborn
 plotly
