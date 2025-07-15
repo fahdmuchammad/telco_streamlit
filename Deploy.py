@@ -5,7 +5,12 @@ import numpy as np  # type: ignore
 import matplotlib.pyplot as plt  # type: ignore
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report, roc_curve, auc  # type: ignore
 import joblib # type: ignore
-import plotly.graph_objects as go  # type: ignore
+import plotly.graph_objects as go  
+import sklearn
+
+st.write(f"scikit-learn version: {sklearn.__version__}")
+st.write(f"pandas version: {pd.__version__}")
+st.write(f"numpy version: {np.__version__}")# type: ignore
 
 # Load Model with error handling
 @st.cache_resource
