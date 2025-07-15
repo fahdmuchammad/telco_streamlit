@@ -7,3 +7,4 @@ numpy
 matplotlib
 seaborn
 plotly
+category_encoders==2.6.3
