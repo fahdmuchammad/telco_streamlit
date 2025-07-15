@@ -8,9 +8,9 @@ import joblib # type: ignore
 import plotly.graph_objects as go  
 import sklearn
 
-st.write(f"scikit-learn version: {sklearn.__version__}")
-st.write(f"pandas version: {pd.__version__}")
-st.write(f"numpy version: {np.__version__}")# type: ignore
+# st.write(f"scikit-learn version: {sklearn.__version__}")
+# st.write(f"pandas version: {pd.__version__}")
+# st.write(f"numpy version: {np.__version__}")# type: ignore
 
 # Load Model with error handling
 @st.cache_resource
